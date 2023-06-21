@@ -1,2 +1,2 @@
 # ekirbs-vpn
-My initial VPN extension build.
+My initial Chromium VPN extension build.
