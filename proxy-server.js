@@ -12,7 +12,6 @@ proxy.on('error', (err, req, res) => {
 app.use(express.static('public'));
 
 app.all('*', (req, res) => {
-  // Forward the request to the target server
   proxy.web(req, res, { target: 'http://example.com' });
 });
 

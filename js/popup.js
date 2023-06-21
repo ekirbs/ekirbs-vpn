@@ -1,6 +1,8 @@
 // Set popup size by 2.5 / of the screen
 $('body').css('width', `${screen.width/2.5}px`);
 
+let proxyServer = "";
+
 document.getElementById('setProxy').addEventListener('click', () => {
   const config = {
     mode: "pac_script",
